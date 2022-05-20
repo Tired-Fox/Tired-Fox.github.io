@@ -1,0 +1,93 @@
+$light-one: #CAD3C5;
+$light-two : #6B9A9E;
+$light-three : #86ACA3;
+$light-four : #9FBCA5;
+$light-five : #628293;
+
+$dark-one: #2F3E46;
+$dark-two : #354F42;
+$dark-three : #52796F;
+$dark-four : #84A98C;
+$dark-five : #CAD2C5;
+
+.tdark-one {
+    color: $dark-one;
+}
+
+.tdark-two {
+    color: $dark-two;
+}
+
+.tdark-three {
+    color: $dark-three;
+}
+
+.tdark-four {
+    color: $dark-four;
+}
+
+.tdark-five {
+    color: $dark-five;
+}
+
+.bdark-one {
+    background-color: $dark-one;
+}
+
+.bdark-two {
+    background-color: $dark-two;
+}
+
+.bdark-three {
+    background-color: $dark-three;
+}
+
+.bdark-four {
+    background-color: $dark-four;
+}
+
+.bdark-five {
+    background-color: $dark-five;
+}
+
+// ------------------------
+
+.tlight-one {
+    color: $light-one;
+}
+
+.tlight-two {
+    color: $light-two;
+}
+
+.tlight-three {
+    color: $light-three;
+}
+
+.tlight-four {
+    color: $light-four;
+}
+
+.tlight-five {
+    color: $light-five;
+}
+
+.blight-one {
+    background-color: $light-one;
+}
+
+.blight-two {
+    background-color: $light-two;
+}
+
+.blight-three {
+    background-color: $light-three;
+}
+
+.blight-four {
+    background-color: $light-four;
+}
+
+.blight-five {
+    background-color: $light-five;
+}

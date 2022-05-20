@@ -1,0 +1,22 @@
+{
+  "name": "boehm-zachary",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/style/scss/style.scss src/style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boehm-Zachary/Boehm-Zachary.git"
+  },
+  "author": "Zachary Boehm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boehm-Zachary/Boehm-Zachary/issues"
+  },
+  "homepage": "https://github.com/Boehm-Zachary/Boehm-Zachary#readme",
+  "dependencies": {
+    "sass": "^1.52.0"
+  }
+}

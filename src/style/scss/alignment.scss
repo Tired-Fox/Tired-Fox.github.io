@@ -1,0 +1,165 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+.grid-column {
+    grid-auto-flow: column;
+}
+
+.grid-row {
+    grid-auto-flow: row;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.justify-self-left {
+    justify-self: left;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-left {
+    align-items: left;
+}
+
+.align-items-right {
+    align-items: right;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-left {
+    align-self: left;
+}
+
+.align-self-right {
+    align-self: right;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-left {
+    align-content: left;
+}
+
+.align-content-right {
+    align-content: right;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-spacebetween {
+    justify-content: space-between;
+}
+
+.justify-conent-start {
+    justify-content: start;
+}
+
+.justify-conent-end {
+    justify-content: end;
+}
+
+.justify-conent-spacearound {
+    justify-content: space-around;
+}
+
+.justify-conent-spaceevenly {
+    justify-content: space-evenly;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-spacebetween {
+    justify-self: space-between;
+}
+
+.justifyself-start {
+    justify-self: start;
+}
+
+.justifyself-end {
+    justify-self: end;
+}
+
+.justifyself-spacearound {
+    justify-self: space-around;
+}
+
+.justifyself-spaceevenly {
+    justify-self: space-evenly;
+}
+
+.justify-items-center {
+    justify-items: center;
+}
+
+.justify-items-spacebetween {
+    justify-items: space-between;
+}
+
+.justifyitems-start {
+    justify-items: start;
+}
+
+.justifyitems-end {
+    justify-items: end;
+}
+
+.justifyitems-spacearound {
+    justify-items: space-around;
+}
+
+.justifyitems-spaceevenly {
+    justify-items: space-evenly;
+}
