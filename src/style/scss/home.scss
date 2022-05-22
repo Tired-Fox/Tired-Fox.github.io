@@ -3,21 +3,21 @@
 }
 
 #short-about {
-    margin-top: 2rem;
+    margin-top: 8rem;
     p {
-        width: 30rem;
+        width: 40rem;
         margin-top: .5rem;
     }
 }
 
 #circle-1 {
-    left: 6rem;
+    left: 12rem;
     top: 10rem;
 }
 
 #dots-1 {
-    transform: translateY(-4rem);
-    right: 10rem;
+    transform: translateY(90rem);
+    right: 15rem;
 }
 
 #dots-2 {
@@ -25,13 +25,23 @@
     transform: translateY(30rem);
 }
 
+#dots-3 {
+    left: 50rem;
+}
+
 #triangle-1 {
     transform: scale(4) translateY(8rem) rotate(10deg);
     right: 3rem;
 }
 
+#square-1 {
+    background-color: $two;
+    left: 50rem;
+    transform: translateY(60rem) rotate(45deg);
+}
+
 #dev-diagram {
-    margin-top: 5rem;
+    margin-top: 10rem;
     text-align: center;
     width: 100%;
 }
@@ -42,7 +52,7 @@
     display: grid;
 
     grid-template-columns: repeat(3, 33.3%);
-    grid-template-rows: repeat(2, 4rem) auto;
+    grid-template-rows: repeat(2, 8rem) auto;
     grid-template-areas:
         "topleft topmiddle topright"
         "middleleft middle middleright"
@@ -95,11 +105,11 @@
 }
 
 .vert-line-small{
-    height: 4rem;
+    height: 8rem;
 }
 
 .vert-line-large {
-    height: 8rem;
+    height: 16rem;
 }
 
 .horiztonal-line {
@@ -117,7 +127,8 @@
 
     p {
         margin-top: 1rem;
-        font-size: 1.75rem;
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
 

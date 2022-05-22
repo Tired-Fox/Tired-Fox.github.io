@@ -1,24 +1,24 @@
 @import 'colors';
 
 .small-circle {
-    width: 5rem;
-    height: 5rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
 }
 
 .medium-circle {
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height: 25rem;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
 }
 
 .large-circle {
-    width: 25rem;
-    height: 25rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
@@ -119,4 +119,22 @@
     border-bottom: 5rem solid $five;
     position: absolute;
     display: inline-block;
+}
+
+.small-square {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+}
+
+.medium-square {
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+}
+
+.large-square {
+    width: 35rem;
+    height: 35rem;
+    position: absolute;
 }

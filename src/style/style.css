@@ -253,24 +253,24 @@
 }
 
 .small-circle {
-  width: 5rem;
-  height: 5rem;
+  width: 15rem;
+  height: 15rem;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
 }
 
 .medium-circle {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 25rem;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
 }
 
 .large-circle {
-  width: 25rem;
-  height: 25rem;
+  width: 35rem;
+  height: 35rem;
   border-radius: 50%;
   display: inline-block;
   position: absolute;
@@ -365,6 +365,24 @@
   display: inline-block;
 }
 
+.small-square {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+}
+
+.medium-square {
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+}
+
+.large-square {
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+}
+
 nav {
   width: auto;
   height: 8rem;
@@ -388,7 +406,7 @@ nav {
   color: black;
 }
 #nav-links a p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 #nav-links a:nth-child(3) {
   font-weight: bold;
@@ -402,7 +420,7 @@ nav {
   color: white;
 }
 #nav-links a:hover .underline {
-  width: 90%;
+  width: 80%;
 }
 #nav-links a:hover:after .underline {
   width: 0%;
@@ -420,21 +438,21 @@ nav {
 }
 
 #short-about {
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 #short-about p {
-  width: 30rem;
+  width: 40rem;
   margin-top: 0.5rem;
 }
 
 #circle-1 {
-  left: 6rem;
+  left: 12rem;
   top: 10rem;
 }
 
 #dots-1 {
-  transform: translateY(-4rem);
-  right: 10rem;
+  transform: translateY(90rem);
+  right: 15rem;
 }
 
 #dots-2 {
@@ -442,13 +460,23 @@ nav {
   transform: translateY(30rem);
 }
 
+#dots-3 {
+  left: 50rem;
+}
+
 #triangle-1 {
   transform: scale(4) translateY(8rem) rotate(10deg);
   right: 3rem;
 }
 
+#square-1 {
+  background-color: #76C893;
+  left: 50rem;
+  transform: translateY(60rem) rotate(45deg);
+}
+
 #dev-diagram {
-  margin-top: 5rem;
+  margin-top: 10rem;
   text-align: center;
   width: 100%;
 }
@@ -457,7 +485,7 @@ nav {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 33.3%);
-  grid-template-rows: repeat(2, 4rem) auto;
+  grid-template-rows: repeat(2, 8rem) auto;
   grid-template-areas: "topleft topmiddle topright" "middleleft middle middleright" "bottomleft bottommiddle bottomright";
 }
 
@@ -506,11 +534,11 @@ nav {
 }
 
 .vert-line-small {
-  height: 4rem;
+  height: 8rem;
 }
 
 .vert-line-large {
-  height: 8rem;
+  height: 16rem;
 }
 
 .horiztonal-line {
@@ -526,7 +554,8 @@ nav {
 }
 .dev-diagram-item p {
   margin-top: 1rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 #scroll-icon {
@@ -566,7 +595,7 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bolder;
 }
 
@@ -579,7 +608,7 @@ h3 {
 }
 
 .subtext {
-  font-size: 1.7rem;
+  font-size: 3rem;
 }
 
 .content {
