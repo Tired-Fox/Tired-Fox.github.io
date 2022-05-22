@@ -14,20 +14,117 @@
     </style> 
 
     <script src="src/scripts/ChangeColors.js"></script>
-
-    <body class="bdark-one tdark-five">
+  
+    <body>
         
         <nav>
-            <button class="theme-button light-theme-button" onClick="toLight()">Light Theme</button>
-            <button class="theme-button dark-theme-button" onClick="toDark()">dark Theme</button>
+            <div id="nav-content" class="content flex flex-row align-items-end justify-content-spacebetween">
+                <img id="nav-logo" src="src/Images/GrayscaleTransparent_Fox.svg" alt="Logo" />
+                <div id="nav-links" class="flex flex-row align-items-center justify-content-center">
+                    <a href="#home">
+                        <div class="flex flex-column">
+                            <p>Home</p>
+                            <span class="underline background-color-two"></span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex flex-column">
+                            <p>About</p>
+                            <span class="underline background-color-three"></span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex flex-column">
+                            <p>Projects</p>
+                            <span class="underline background-color-four"></span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex flex-column">
+                            <p>Contact Me</p>
+                            <span class="underline background-color-white"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </nav>
 
-        <div class="name">
-            <div class="flex flex-column">
-                <h2 class="text-align-left">Hello, My Name Is</h2>
-                <h1 class="text-align-left">Zachary Boehm</h1>
+        <!--  -->
+
+        <div id="home">
+            <div>
+                <span id="circle-1" class="large-circle background background-color-two"></span>
+                <div id="dots-1" class="small-dots background child-btwo">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div id="dots-2" class="small-dots background child-btwo">
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div id="triangle-1" class="triangle-color-two  background"></div>
+            </div>
+            <div class="content">
+                <div id="short-about" class="flex flex-column">
+                    <h1 class="text-align-left">I'm Zachary,</h1>
+                    <p class="text-align-left subtext">A solo developer who is motivated to learn new skills.</p>
+                </div>
+                <div id="dev-diagram" class="flex flex-column align-items-center">
+                    <h3>What I Develop</h3>
+                    <div id="dev-diagram-lines" class="flex flex-row width-100p  justify-content-spacebetween">
+                        <div id="leftline" class="vert-line vert-line-small"></div>
+                        <div id="middleline" class="vert-line vert-line-large"></div>
+                        <div id="rightline" class="vert-line vert-line-small"></div>
+                        <div id="horiztonalline" class="horiztonal-line"></div>
+                        <div id="dev-diagram-item-1" class="dev-diagram-item flex flex-column align-items-center">
+                            <img src="src/Images/Icons/monitor-mobbile-icon.svg" alt="Website Design Icon" />
+                            <p>Websites</p>
+                        </div>
+                        <div id="dev-diagram-item-2" class="dev-diagram-item flex flex-column align-items-center">
+                            <img src="src/Images/Icons/code-icon.svg" alt="Terminal Application Icon" />
+                            <p>Terminal Applications</p>
+                        </div>
+                        <div id="dev-diagram-item-3" class="dev-diagram-item flex flex-column align-items-center">
+                            <img src="src/Images/Icons/game-icon.svg" alt="Videogame Development Icon" />
+                            <p>Videogames</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="scroll-icon" class="flex flex-column justify-content-center align-items-center">
+                    <img src="src/Images/Icons/computermouse-icon.svg" alt="Scroll Icon">
+                    <img src="src/Images/Icons/down arrow.svg" alt="Down Arrow">
+                </div>
             </div>
         </div>
 
+        <!--  -->
+
+        <div id="about">
+
+        </div>
+
+        <!--  -->
+
+        <div id="projects">
+
+        </div>
+
+        <!--  -->
+
+        <div id="contact">
+
+        </div>
+
+        <!--  -->
+
+        <div id="footer">
+
+        </div>
     </body>
 </html>

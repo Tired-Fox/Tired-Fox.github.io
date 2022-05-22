@@ -1,0 +1,5 @@
+== Website link:https://boehm-zachary.github.io/[🔗]
+
+=== Mockup
+image::./MockofEntireSite.png[]
+

@@ -1,0 +1,122 @@
+@import 'colors';
+
+.small-circle {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.medium-circle {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.large-circle {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.background {
+    opacity: 25%;
+    z-index: -1;
+}
+
+.hide {
+    display: none;
+}
+
+.small-dots {
+    $square-size: 1rem;
+    display: inline-grid;
+    grid-template-columns: repeat(5, $square-size);
+    grid-template-rows: repeat(5, $square-size);
+    gap: $square-size;
+
+    position: absolute;
+    span {
+        width: $square-size;
+        height: $square-size;
+    }
+}
+
+.medium-dots {
+    $square-size: 1.5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(5, $square-size);
+    grid-template-rows: repeat(5, $square-size);
+    gap: $square-size;
+
+    position: absolute;
+    span {
+        width: $square-size;
+        height: $square-size;
+    }
+}
+
+.big-dots {
+    $square-size: 1.75rem;
+    display: inline-grid;
+    grid-template-columns: repeat(5, $square-size);
+    grid-template-rows: repeat(5, $square-size);
+    gap: $square-size;
+
+    position: absolute;
+    span {
+        width: $square-size;
+        height: $square-size;
+    }
+}
+
+.child-btwo {
+    span {
+        background-color: $two;
+    }
+}
+
+.triangle-color-two {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 5rem solid $two;
+    position: absolute;
+    display: inline-block;
+}
+
+.triangle-color-three {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 5rem solid $three;
+    position: absolute;
+    display: inline-block;
+}
+
+.triangle-color-four {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 5rem solid $four;
+    position: absolute;
+    display: inline-block;
+}
+
+.triangle-color-five {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 5rem solid $five;
+    position: absolute;
+    display: inline-block;
+}

@@ -1,93 +1,49 @@
-$light-one: #CAD3C5;
-$light-two : #6B9A9E;
-$light-three : #86ACA3;
-$light-four : #9FBCA5;
-$light-five : #628293;
+$one: #FFFFEA;
+$two : #76C893;
+$three : #FF5E5B;
+$four : #277DA1;
+$five : #FFBC42;
 
-$dark-one: #2F3E46;
-$dark-two : #354F42;
-$dark-three : #52796F;
-$dark-four : #84A98C;
-$dark-five : #CAD2C5;
-
-.tdark-one {
-    color: $dark-one;
+.color-one {
+    color: $one;
 }
 
-.tdark-two {
-    color: $dark-two;
+.color-two {
+    color: $two;
 }
 
-.tdark-three {
-    color: $dark-three;
+.color-three {
+    color: $three;
 }
 
-.tdark-four {
-    color: $dark-four;
+.color-four {
+    color: $four;
 }
 
-.tdark-five {
-    color: $dark-five;
+.color-five {
+    color: $five;
 }
 
-.bdark-one {
-    background-color: $dark-one;
+.background-color-one {
+    background-color: $one;
 }
 
-.bdark-two {
-    background-color: $dark-two;
+.background-color-two {
+    background-color: $two;
 }
 
-.bdark-three {
-    background-color: $dark-three;
+.background-color-three {
+    background-color: $three;
 }
 
-.bdark-four {
-    background-color: $dark-four;
+.background-color-four {
+    background-color: $four;
 }
 
-.bdark-five {
-    background-color: $dark-five;
+.background-color-five {
+    background-color: $five;
 }
 
-// ------------------------
-
-.tlight-one {
-    color: $light-one;
-}
-
-.tlight-two {
-    color: $light-two;
-}
-
-.tlight-three {
-    color: $light-three;
-}
-
-.tlight-four {
-    color: $light-four;
-}
-
-.tlight-five {
-    color: $light-five;
-}
-
-.blight-one {
-    background-color: $light-one;
-}
-
-.blight-two {
-    background-color: $light-two;
-}
-
-.blight-three {
-    background-color: $light-three;
-}
-
-.blight-four {
-    background-color: $light-four;
-}
-
-.blight-five {
-    background-color: $light-five;
+.background-color-white {
+    background-color: #FFFFFF;
 }
