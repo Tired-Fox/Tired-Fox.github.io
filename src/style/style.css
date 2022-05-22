@@ -325,6 +325,18 @@
   background-color: #76C893;
 }
 
+.child-bthree span {
+  background-color: #FF5E5B;
+}
+
+.child-bfour span {
+  background-color: #277DA1;
+}
+
+.child-bfive span {
+  background-color: #FFBC42;
+}
+
 .triangle-color-two {
   width: 0;
   height: 0;
@@ -581,6 +593,69 @@ nav {
     transform: translateY(5px);
   }
 }
+#about {
+  margin-top: 25rem;
+}
+
+#about-callout {
+  font-size: 25rem;
+  margin-left: 20rem;
+  opacity: 15%;
+  position: absolute;
+  z-index: -1;
+}
+
+#about-list {
+  margin-top: 15rem;
+}
+#about-list div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#about-list div img {
+  width: 45rem;
+  height: 45rem;
+}
+#about-list div p {
+  font-size: 2rem;
+  width: 50rem;
+}
+#about-list div:nth-child(1) p {
+  margin-left: 10rem;
+}
+#about-list div:nth-child(2) p {
+  margin-right: 10rem;
+}
+#about-list div:nth-child(3) p {
+  margin-left: 10rem;
+}
+
+#triangle-2 {
+  transform: scale(3.5) translateY(8rem) rotate(30deg);
+  left: 40rem;
+}
+
+#dots-4 {
+  left: 150rem;
+}
+
+#dots-5 {
+  left: 100rem;
+  transform: translateY(50rem) rotate(45deg);
+}
+
+#dots-6 {
+  left: 10rem;
+  transform: translateY(130rem);
+}
+
+#triangle-3 {
+  left: 120rem;
+  transform: scale(5) translateY(28rem) rotate(30deg);
+}
+
 * {
   font-size: 62.5%;
   margin: 0;
@@ -605,6 +680,27 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFFEA;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFBC42;
 }
 
 .subtext {

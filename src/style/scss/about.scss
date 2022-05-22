@@ -1,0 +1,74 @@
+#about {
+    margin-top: 25rem;
+}
+
+#about-callout {
+    font-size: 25rem;
+    margin-left: 20rem;
+    opacity: 15%;
+    position: absolute;
+    z-index: -1;
+}
+
+#about-list {
+    margin-top: 15rem;
+    
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 45rem;
+            height: 45rem;
+        }
+
+        p {
+            font-size: 2rem;
+            width: 50rem;
+        }
+    }
+
+    div:nth-child(1){
+        p {
+            margin-left: 10rem;
+        }
+    }
+
+    div:nth-child(2) {
+        p {
+            margin-right: 10rem;
+        }
+    }
+
+    div:nth-child(3) {
+        p {
+            margin-left: 10rem;
+        }
+    }
+}
+
+#triangle-2 {
+    transform: scale(3.5) translateY(8rem) rotate(30deg) ;
+    left: 40rem;
+}
+
+#dots-4 {
+    left: 150rem;
+}
+
+#dots-5 {
+    left: 100rem;
+    transform: translateY(50rem) rotate(45deg);
+}
+
+#dots-6 {
+    left: 10rem;
+    transform: translateY(130rem);
+}
+
+#triangle-3 {
+    left: 120rem;
+    transform: scale(5) translateY(28rem) rotate(30deg);
+}

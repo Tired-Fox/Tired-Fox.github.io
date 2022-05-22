@@ -132,6 +132,44 @@
     }
 }
 
+// #dev-list {
+//     margin-top: 8rem;
+//     width: 100%;
+//     display: flex;
+//     justify-content: end;
+
+//     & > div {
+//         margin: 2rem 0;
+//         margin-right: 25rem;
+//         display: flex;
+//         flex-direction: column;
+//         width: fit-content;
+
+//         & > p {
+//             margin-bottom: 4rem;
+//             width: 100%;
+//             text-align: center;
+//         }
+
+//         div {
+//             display: flex;
+//             flex-direction: row;
+//             align-items: center;
+//             align-self: end;
+//             margin: 2rem 0;
+//         }
+//         img {
+//             width: 6rem;
+//             height: 6rem;
+//         }
+//         p {
+//             font-size: 2rem;
+//             font-weight: bold;
+//             margin-right: 2rem;
+//         }
+//     }
+// }
+
 #scroll-icon {
     margin-top: 12rem;
     height: 8rem;

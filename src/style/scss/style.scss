@@ -3,12 +3,14 @@
 @import 'background';
 @import 'header';
 @import 'home';
+@import 'about';
 
 * {
     font-size: 62.5%;
     margin: 0;
     padding: 0;
     font-family: 'Outfit', sans-serif;
+
     overflow-x: hidden;
 }
 
@@ -28,6 +30,27 @@ h2 {
 
 h3 {
     font-size: 2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: $one;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+    border-radius: 1rem;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $five;
 }
 
 .subtext {
