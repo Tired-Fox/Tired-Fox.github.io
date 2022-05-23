@@ -75,6 +75,12 @@
     }
 }
 
+.child-bgrey {
+    span {
+        background-color: $grey;
+    }
+}
+
 .child-btwo {
     span {
         background-color: $two;
@@ -135,6 +141,16 @@
     border-left: 3rem solid transparent;
     border-right: 3rem solid transparent;
     border-bottom: 5rem solid $five;
+    position: absolute;
+    display: inline-block;
+}
+
+.triangle-color-grey {
+    width: 0;
+    height: 0;
+    border-left: 3rem solid transparent;
+    border-right: 3rem solid transparent;
+    border-bottom: 5rem solid $grey;
     position: absolute;
     display: inline-block;
 }

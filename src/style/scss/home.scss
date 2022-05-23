@@ -35,7 +35,7 @@
 }
 
 #square-1 {
-    background-color: $two;
+    background-color: $grey;
     left: 50rem;
     transform: translateY(60rem) rotate(45deg);
 }
@@ -123,6 +123,7 @@
     img {
         margin-top: 2rem;
         width: 4rem;
+        fill: $grey;
     }
 
     p {
