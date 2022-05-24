@@ -450,7 +450,7 @@ nav {
 #nav-links a p {
   font-size: 2rem;
 }
-#nav-links a:nth-child(3) {
+#nav-links a:nth-child(4) {
   font-weight: bold;
 }
 #nav-links a:nth-child(5) {
@@ -513,7 +513,7 @@ nav {
 
 #square-1 {
   background-color: rgba(92, 92, 92, 0.3607843137);
-  left: 50rem;
+  left: 25%;
   transform: translateY(60rem) rotate(45deg);
 }
 
@@ -628,9 +628,9 @@ nav {
   margin-top: 25rem;
 }
 
-#about-callout {
+.callout {
   font-size: 25rem;
-  margin-left: 20rem;
+  left: 10%;
   opacity: 15%;
   position: absolute;
   z-index: -1;
@@ -665,11 +665,11 @@ nav {
 
 #triangle-2 {
   transform: scale(3.5) translateY(8rem) rotate(30deg);
-  left: 40rem;
+  left: 20%;
 }
 
 #dots-4 {
-  left: 150rem;
+  right: 15%;
 }
 
 #dots-5 {
@@ -687,12 +687,70 @@ nav {
   transform: scale(5) translateY(28rem) rotate(30deg);
 }
 
+#skills {
+  margin-top: 20rem;
+}
+#skills .content {
+  margin-top: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overflow {
+  flex-wrap: wrap;
+}
+
+.skill-section {
+  margin-bottom: 15rem;
+}
+
+.skill-list {
+  padding: 2rem;
+  justify-content: center;
+  align-content: start;
+}
+
+.skill-card {
+  width: 15rem;
+  height: auto;
+  background-color: white;
+  margin: 0 1.5rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 13px -3px rgba(0, 0, 0, 0.56);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.skill-card img {
+  width: 10rem;
+}
+.skill-card svg {
+  width: 10rem;
+  height: 10rem;
+}
+.skill-card div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-card div p {
+  font-size: 2rem;
+  text-align: center;
+}
+
 * {
   font-size: 62.5%;
   margin: 0;
   padding: 0;
   font-family: "Outfit", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {

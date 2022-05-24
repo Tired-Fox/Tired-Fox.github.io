@@ -2,9 +2,9 @@
     margin-top: 25rem;
 }
 
-#about-callout {
+.callout {
     font-size: 25rem;
-    margin-left: 20rem;
+    left: 10%;
     opacity: 15%;
     position: absolute;
     z-index: -1;
@@ -51,11 +51,11 @@
 
 #triangle-2 {
     transform: scale(3.5) translateY(8rem) rotate(30deg) ;
-    left: 40rem;
+    left: 20%;
 }
 
 #dots-4 {
-    left: 150rem;
+    right: 15%;
 }
 
 #dots-5 {

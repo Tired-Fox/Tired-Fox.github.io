@@ -4,6 +4,7 @@
 @import 'header';
 @import 'home';
 @import 'about';
+@import 'skills';
 
 * {
     font-size: 62.5%;
@@ -12,6 +13,7 @@
     font-family: 'Outfit', sans-serif;
 
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
